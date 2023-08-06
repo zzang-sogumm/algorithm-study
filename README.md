@@ -1,1 +1,129 @@
-# algorithm-study
+# [zzang-sogumm] algorithm-study
+
+[![Since](https://img.shields.io/badge/since-2023.08.06-6A5ACD.svg?&edge_flat=false)](https://github.com/zzang-sogumm/algorithm-study)
+
+## 🧂 Goal
+
+- 자료구조, 알고리즘의 원리와 패턴을 익히는 데 목적을 둡니다.
+- 꾸준한 훈련을 통해 문제 해결력을 기릅니다.
+- 모두가 만족할 만한 성공적인 스터디를 만들어 가봅시다~ 탈출은 능력순,,
+
+<br />
+
+## 🧂 Members
+
+<table>
+    <tr>
+        <td>
+            <a href="https://github.com/yeonju0110">
+                <img src="https://github.com/yeonju0110.png" width="70px" />
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/isu-nice">
+                <img src="https://github.com/isu-nice.png" width="70px" />
+            </a>
+        </td>
+        <td>
+            <a href="https://github.com/jwh1124">
+                <img src="https://github.com/jwh1124.png" width="70px" />
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td><p align="center">조연주</p></td>
+        <td><p align="center">신이수</p></td>
+        <td><p align="center">정원혁</p></td>
+    </tr>
+</table>
+
+<br />
+
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=yeonju0110)](https://solved.ac/yeonju0110)
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=isu081818)](https://solved.ac/isu081818)
+[![Solved.ac 프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=jwh1124)](https://solved.ac/jwh1124)
+
+<br />
+
+## 🧂 Rule
+
+매주 문제를 선정하여 '각자 2일에 두 문제씩', '하루는 실시간으로 한 문제를 같이' 풉니다.
+새로운 개념을 시작하는 주에는 강의를 통해 해당 개념을 숙지한 후, 문제풀이를 진행합니다.
+
+- <b>2일에 두 문제씩</b>
+  - 각자 시간을 정해서 문제 풀이를 진행합니다.
+  - 절대 풀지 못할 것 같은 문제는 적당한 시점에 포기하고, 다른 사람의 풀이를 통해 영감을 얻고 배우도록 합니다.
+- <b>실시간 진행 방식</b>
+  1.  실전처럼 30분동안 1문제를 풀고 PR을 보냅니다.
+  2.  한주동안 문제 풀이를 하면서, 각자 정리한 개념이나 어려웠던 문제들을 공유하고 설명합니다.
+  3.  전주에 올린 PR 리뷰에 대해 공유할만한 내용이 있다면, 이를 공유합니다.
+
+<br />
+
+## 🧂 Convention
+
+### 📌 Commit convention
+
+1문제씩 나눠서 커밋합니다.
+
+```
+add : 새로 푼 문제
+refactor: 기존에 못 푼 문제, 풀이 방법 개선한 문제
+remove : 코드 및 문서 삭제
+docs : README.md 등의 문서 작성 및 수정
+```
+
+- 예시)
+  ```
+  add: BOJ 2023
+  docs: 리드미 파일 수정
+  ```
+
+### 📌 PR convention
+
+- PR Template에 맞춰서 작성합니다.
+- 실시간 문제 풀이 후에 PR을 보냅니다.
+- 차주에 코드리뷰를 진행합니다.
+
+### 📌 Project convention
+
+```
+📦 ALGORITHM-STUDY
+ ├─ 📂 docs
+ ├─ 📂 isu
+ │ ├─ 📂 greedy
+ │ │  └─ BOJ2023.java
+ │ ├─ ...
+ │ └─ 📜 README.md
+ ├─ 📂 jwh
+ │ ├─ 📂 implementation
+ │ ├─ ...
+ │ └─ 📜 README.md
+ ├─ 📂 yeonju
+ │ ├─ 📂 greedy
+ │ ├─ ...
+ │ └─ 📜 README.md
+ └─ 📜 README.md
+```
+
+- 문제 유형별로 폴더 분리
+- 파일명: 문제 번호 or 이름
+- `docs` 폴더: 공유할 만한 문서를 모아두는 곳
+- 각자 폴더에 있는 `README`파일: 개인이 자유롭게 작성
+
+### 📌 File convention
+
+- 풀이 상단이나 하단에 문제 풀이 방식을 주석으로 적어둡니다.
+  - 다른 사람이 풀이를 보더라도 바로 이해할 수 있게 하기 위함입니다.
+
+<br />
+
+## 🧂 진도표
+
+### ⛳️ week1
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                    | 유형 | 난이도  |
+| ------ | --------- | ------------------------------------------------------------ | ---- | ------- |
+| BOJ    | 20546     | [🐜 기적의 매매법 🐜](https://www.acmicpc.net/problem/20546) | 구현 | silver5 |
+| BOJ    | 2578      | [빙고](https://www.acmicpc.net/problem/2578)                 | 구현 | silver4 |
+| BOJ    | 4396      | [지뢰찾기](https://www.acmicpc.net/problem/4396)             | 구현 | silver4 |

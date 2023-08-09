@@ -11,9 +11,7 @@ public class BOJ4396 {
     private static final char OPENED = 'x';
     private static final char DOT = '.';
 
-    static char[][] MINE_MAP;
-    static char[][] OPENED_MAP;
-    static char[][] PLAYING_MAP;
+    static char[][] MINE_MAP, OPENED_MAP, PLAYING_MAP;
 
     public static void main(String[] args) throws IOException {
         new BOJ4396().run();
@@ -25,7 +23,6 @@ public class BOJ4396 {
         startGame(); // 지뢰찾기 게임 시작
 
         putPlayingMap(); // 결과 출력
-        System.out.println("끝");
     }
 
     private void initAllMaps() throws IOException {

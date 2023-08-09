@@ -2,11 +2,11 @@
 
 [![Since](https://img.shields.io/badge/since-2023.08.06-6A5ACD.svg?&edge_flat=false)](https://github.com/zzang-sogumm/algorithm-study)
 
-## 🧂 Goal
+## 🧂 Goals
 
 - 자료구조, 알고리즘의 원리와 패턴을 익히는 데 목적을 둡니다.
 - 꾸준한 훈련을 통해 문제 해결력을 기릅니다.
-- 모두가 만족할 만한 성공적인 스터디를 만들어 가봅시다~ 탈출은 능력순,,
+- 모두가 만족할 만한 성공적인 스터디를 만들어 가봅시다~ 탈출은 능력순,,^^⭐️
 
 <br />
 
@@ -45,7 +45,7 @@
 
 <br />
 
-## 🧂 Rule
+## 🧂 Rules
 
 매주 문제를 선정하여 '각자 2일에 두 문제씩', '하루는 실시간으로 한 문제를 같이' 풉니다.
 새로운 개념을 시작하는 주에는 강의를 통해 해당 개념을 숙지한 후, 문제풀이를 진행합니다.
@@ -60,7 +60,7 @@
 
 <br />
 
-## 🧂 Convention
+## 🧂 Conventions
 
 ### 📌 Commit convention
 
@@ -127,3 +127,16 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 20546     | [🐜 기적의 매매법 🐜](https://www.acmicpc.net/problem/20546) | 구현 | silver5 |
 | BOJ    | 2578      | [빙고](https://www.acmicpc.net/problem/2578)                 | 구현 | silver4 |
 | BOJ    | 4396      | [지뢰찾기](https://www.acmicpc.net/problem/4396)             | 구현 | silver4 |
+| BOJ    | 1316      | [그룹 단어 체커](https://www.acmicpc.net/problem/1316)       | 구현 | silver5 |
+
+### ⛳️ week2
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                                              | 유형      | 난이도  |
+| ------ | --------- | -------------------------------------------------------------------------------------- | --------- | ------- |
+| BOJ    | 14916     | [거스름돈](https://www.acmicpc.net/problem/14916)                                      | 그리디    | silver5 |
+| BOJ    | 1343      | [폴리오미노](https://www.acmicpc.net/problem/1343)                                     | 그리디    | silver5 |
+| BOJ    | 2217      | [로프](https://www.acmicpc.net/problem/2217)                                           | 그리디    | silver4 |
+| BOJ    | 1758      | [알바생 강호](https://www.acmicpc.net/problem/1758)                                    | 그리디    | silver4 |
+| BOJ    | 2798      | [블랙잭](https://www.acmicpc.net/problem/2798)                                         | 완전 탐색 | bronze2 |
+| BOJ    | 2422      | [한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422) | 완전 탐색 | silver4 |
+| BOJ    | 14501     | [퇴사](https://www.acmicpc.net/problem/14501)                                          | 완전 탐색 | silver3 |

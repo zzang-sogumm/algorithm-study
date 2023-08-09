@@ -58,6 +58,7 @@ public class BOJ2578 {
         }
     }
 
+    // 빙고 개수 카운트
     private boolean bingo() {
         int bingoCount = 0;
 

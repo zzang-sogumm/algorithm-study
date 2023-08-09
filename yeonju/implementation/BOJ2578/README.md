@@ -25,7 +25,7 @@ def checkBingo(mm):
     isLeftTopRightBottomBingo = True
     isRightTopLeftBottomBingo = True
 
-    for i in range(5):
+    for i in range(NUM):
         if mm[i][i] == 0:
             isLeftTopRightBottomBingo = False
         if mm[NUM-i-1][i] == 0:
@@ -37,11 +37,11 @@ def checkBingo(mm):
         cnt += 1
 
     # 행,열 검사
-    for i in range(5):
+    for i in range(NUM):
         isRowBingo = True
         isColBingo = True
 
-        for j in range(5):
+        for j in range(NUM):
             if mm[i][j] == 0:
                 isRowBingo = False
             if mm[j][i] == 0:

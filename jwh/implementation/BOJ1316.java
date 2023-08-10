@@ -1,41 +1,51 @@
 import java.util.Scanner;
 
 public class BOJ1316 {
+
+    static Scanner scanner = new Scanner(System.in);
+
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
 
-        int size = 0, count = 0;
-        size = scanner.nextInt();
-        String[] noun = new String[size];
-        char[] check = new char[100];
-        char[] loop = new char[100];
+        int count = 0;
+        int N = scanner.nextInt();
 
-        outerloop: for (int i = 0; i < size; i++) {
-            noun[i] = scanner.next();
-            for (int j = 0; j < noun[i].length(); j++) {
-                check[j] = noun[i].charAt(j);
+        for (int i = 0; i < N; i++) {
+            if (check() == true) {
+                count++;
             }
-            for (int k = 0; k < noun[i].length(); k++) {
-                if (check[k] != check[k + 1]) {
-                    loop[k] = check[k];
-                }
-                if (check[k] == check[k + 1]) {
-                    loop[k] = check[k + 1];
-                }
-
-                for (int x = 0; x < noun[i].length(); x++) {
-                    if (loop[i] == check[x]) {
-                        break outerloop;
-                    }
-                }
-            }
-
-            count = count + 1;
-
         }
-
         System.out.println(count);
+    }
 
-        scanner.close();
+    public static boolean check() {
+        boolean[] check = new boolean[100];
+        int prev = 0;
+        String str = scanner.next();
+
+        for (int i = 0; i < str.length(); i++) {
+            int now = str.charAt(i); // i 번째 문자 저장 (현재 문자)
+
+            // 앞선 문자와 i 번째 문자가 같지 않다면?
+            if (prev != now) {
+
+                // 해당 문자가 처음 나오는 경우 (false 인 경우)
+                if (check[now - 'a'] == false) {
+                    check[now - 'a'] = true; // true 로 바꿔준다
+                    prev = now; // 다음 턴을 위해 prev 도 바꿔준다
+                }
+
+                // 해당 문자가 이미 나온 적이 있는 경우 (그룹단어가 아니게 됨)
+                else {
+                    return false; // 함수 종료
+                }
+            }
+
+            // 앞선 문자와 i 번째 문자가 같다면? (연속된 문자)
+            // else 문은 없어도 됨
+            else {
+                continue;
+            }
+        }
+        return true;
     }
 }

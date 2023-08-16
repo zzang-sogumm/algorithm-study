@@ -1,0 +1,40 @@
+package jwh.brute_force.BOJ14501
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class BOJ14501 {
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+
+		int n = 0, t = 0, p = 0, max = 0;
+
+		n = sc.nextInt();
+
+		int[][] day = new int[n + 1][2];
+
+		for (int i = 0; i < n; i++) {
+
+			t = sc.nextInt();
+			p = sc.nextInt();
+			day[i][0] = t;
+			day[i][1] = p;
+
+		}
+
+		for (int i = n - 1; i >= 0;) {
+
+			if (day[i][0] + i - 1 < n) {
+				if () {
+					i = i - 1;
+				} else {
+					max = max + day[i][1];
+					i = i - 1;
+				}
+			} else
+				i = i - 1;
+		}
+
+		System.out.println(max);
+	}
+}

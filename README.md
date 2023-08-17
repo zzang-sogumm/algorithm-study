@@ -140,3 +140,15 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 2798      | [블랙잭](https://www.acmicpc.net/problem/2798)                                         | 완전 탐색 | bronze2 |
 | BOJ    | 2422      | [한윤정이 이탈리아에 가서 아이스크림을 사먹는데](https://www.acmicpc.net/problem/2422) | 완전 탐색 | silver4 |
 | BOJ    | 14501     | [퇴사](https://www.acmicpc.net/problem/14501)                                          | 완전 탐색 | silver3 |
+| BOJ    | 1439      | [뒤집기](https://www.acmicpc.net/problem/1439)                                         | 그리디    | silver5 |
+
+### ⛳️ week3
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                           | 유형      | 난이도  |
+| ------ | --------- | ------------------------------------------------------------------- | --------- | ------- |
+| BOJ    | 16439     | [치킨치킨치킨](https://www.acmicpc.net/problem/16439)               | 완전 탐색 | silver4 |
+| BOJ    | 2503      | [숫자 야구](https://www.acmicpc.net/problem/2503)                   | 완전 탐색 | silver3 |
+| BOJ    | 17626     | [Four Squares](https://www.acmicpc.net/problem/17626)               | 완전 탐색 | silver3 |
+| BOJ    | 1620      | [나는야 포켓몬 마스터 이다솜](https://www.acmicpc.net/problem/1620) | 자료구조  | silver4 |
+| BOJ    | 14425     | [문자열 집합](https://www.acmicpc.net/problem/14425)                | 자료구조  | silver3 |
+| BOJ    | 11279     | [최대 힙](https://www.acmicpc.net/problem/11279)                    | 자료구조  | silver2 |

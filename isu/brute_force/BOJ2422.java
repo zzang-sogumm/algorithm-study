@@ -56,6 +56,7 @@ public class BOJ2422 {
         }
     }
 
+    // 구린 조합인지 확인
     private boolean isBadCombo(boolean[][] badCombo) {
         for (int i = 0; i < 3; i++) {
             for (int j = i + 1; j < 3; j++) {

@@ -46,7 +46,7 @@ public class BOJ4396 {
 
     private void startGame() {
         int num = MINE_MAP.length;
-        boolean hitMine = false;
+        boolean stepMine = false;
 
         for (int row = 0; row < num; row++) {
             for (int col = 0; col < num; col++) {
@@ -55,21 +55,19 @@ public class BOJ4396 {
                     break;
                 }
 
-                // 지뢰를 열었다면 종료
-                if (MINE_MAP[row][col] == MINE) {
-                    hitMine = true;
+                // 지뢰를 밟았는지 확인
+                if (MINE_MAP[row][col] == MINE && !stepMine) {
+                    stepMine = true;
                     break;
                 }
 
                 // 열어본 칸 중 지뢰가 아닌 칸은 그 주위 칸 확인
                 checkNeighborBlocks(num, row, col);
             }
+        }
 
-            // 지뢰를 밟은 경우 모든 지뢰를 표시함
-            if (hitMine) {
-                markingMine(num);
-                break;
-            }
+        if (stepMine) {
+            markingMine(num);
         }
     }
 
@@ -100,9 +98,6 @@ public class BOJ4396 {
 
     // 모든 지뢰 마킹하는 메서드
     private void markingMine(int num) {
-        // 모든 map 온점으로 초기화
-        initPlayingMap(num);
-
         IntStream.range(0, num)
                 .forEach(row -> IntStream.range(0, num)
                         .filter(col -> MINE_MAP[row][col] == MINE)

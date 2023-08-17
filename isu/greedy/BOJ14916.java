@@ -2,9 +2,9 @@ package isu.greedy;
 
 import java.util.Scanner;
 
-public class Main {
+public class BOJ14916 {
     public static void main(String[] args) {
-        new Main().run();
+        new BOJ14916().run();
     }
 
     private void run() {

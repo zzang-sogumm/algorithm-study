@@ -1,0 +1,85 @@
+package jwh.brute_force.BOJ16439;
+import java.io.IOException;
+import java.util.Scanner;
+
+public class BOJ16439 {
+
+	static int n, m;
+	static int result;
+	static int[][] table;
+	static boolean[] check;
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+
+		n = sc.nextInt();
+		m = sc.nextInt();
+
+		table = new int[n + 1][m + 1];
+		check = new boolean[m];
+
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < m; j++) {
+				table[i][j] = sc.nextInt();
+			}
+		}
+
+		dfs(0, 0);
+
+		System.out.println(result);
+
+		sc.close();
+	}
+
+	private static void dfs(int start, int depth) {
+		if (depth == 3) {                           //치킨이 3가지 골라졌다면?
+			int sum = 0;
+			for (int i = 0; i < n; i++) {
+				int temp = 0;
+				for (int j = 0; j < m; j++) {
+					if (check[j]) {
+						temp = Math.max(temp, table[i][j]);
+					}
+				}
+				sum += temp;
+			}
+			result = Math.max(sum, result);
+			return;
+		}
+
+		for (int i = start; i < m; i++) {
+			if (!check[i]) {
+				check[i] = true;
+				dfs(i + 1, depth + 1);                   //치킨을 3가지 고르자. 1, 2, 3
+				check[i] = false;
+			}
+		}
+	}
+
+
+/*
+	// 맨 처음 시도했던 Loop. 실패했음.
+	public static void fail_loop(int n, int m, int[][] table) {
+		int[] temp = new int[m];
+		int tmp = 0;
+
+		for (int i = 0; i < m; i++) { // 열 순환(가로로 착착)
+			for (int j = 0; j < n; j++) { // 행 순환(세로로 착착)
+				temp[i] = Math.max(temp[i], table[j][i]);
+			}
+		}
+
+		for (int i = 0; i < m - 2; i++) {
+			for (int j = i + 1; j < m - 1; j++) {
+				for (int k = j + 1; k < m; k++) {
+					tmp = temp[i] + temp[j] + temp[k];
+					result = Math.max(result, tmp);
+				}
+			}
+		}
+
+	}
+
+}
+
+*/

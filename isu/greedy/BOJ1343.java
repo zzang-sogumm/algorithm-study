@@ -5,6 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 
 public class BOJ1343 {
+    static final String FAIL = "-1";
 
     public static void main(String[] args) throws IOException {
 //        new Main().run();
@@ -15,12 +16,11 @@ public class BOJ1343 {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         String board = br.readLine();
 
-        String result = "";
-        result = board.replace("XXXX", "AAAA");
+        String result = board.replace("XXXX", "AAAA");
         result = result.replace("XX", "BB");
 
         if (result.contains("X")) {
-            result = "-1";
+            result = FAIL;
         }
 
         System.out.println(result);

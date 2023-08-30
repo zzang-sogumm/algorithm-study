@@ -1,0 +1,48 @@
+package jwh.brute_force.BOJ14501
+
+import java.io.IOException;
+import java.util.Scanner;
+
+public class Main {
+	static int n = 0, max = 0;
+	static int[][] day;
+
+	public static void main(String[] args) throws IOException {
+		Scanner sc = new Scanner(System.in);
+
+		int t = 0, p = 0;
+
+		n = sc.nextInt();
+
+		day = new int[n + 1][2];
+
+		for (int i = 0; i < n; i++) {
+
+			t = sc.nextInt();
+			p = sc.nextInt();
+			day[i][0] = t;
+			day[i][1] = p;
+
+		}
+		rec(0, 0);
+
+		System.out.println(max);
+	}
+
+	static void rec(int idx, int pay) {
+
+		if (idx >= n) {
+			max = Math.max(pay, max);
+			return;
+		}
+
+		if (idx + day[idx][0] <= n) {
+			rec(idx + day[idx][0], pay + day[idx][1]);
+		} else {
+			rec(idx + day[idx][0], pay);
+		}
+
+		rec(idx + 1, pay);
+	}
+
+}

@@ -164,3 +164,4 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 21921     | [블로그](https://www.acmicpc.net/problem/21921)         | 투 포인터 | silver3 |
 | BOJ    | 20922     | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) | 투 포인터 | silver1 |
 | BOJ    | 2470      | [두 용액](https://www.acmicpc.net/problem/2470)         | 투 포인터 | gold5   |
+| BOJ    | 1940      | [주몽](https://www.acmicpc.net/problem/1940)            | 투 포인터 | silver4 |

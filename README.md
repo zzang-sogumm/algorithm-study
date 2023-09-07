@@ -158,10 +158,21 @@ docs : README.md 등의 문서 작성 및 수정
 
 | 플랫폼 | 문제 번호 | 문제 이름                                               | 유형      | 난이도  |
 | ------ | --------- | ------------------------------------------------------- | --------- | ------- |
-| BOJ    | 2346      | [풍선 터뜨기](https://www.acmicpc.net/problem/2346)     | 자료구조  | silver3 |
+| BOJ    | 2346      | [풍선 터뜨리기](https://www.acmicpc.net/problem/2346)   | 자료구조  | silver3 |
 | BOJ    | 10799     | [쇠막대기](https://www.acmicpc.net/problem/10799)       | 자료구조  | silver2 |
 | BOJ    | 2504      | [괄호의 값](https://www.acmicpc.net/problem/2504)       | 자료구조  | gold5   |
 | BOJ    | 21921     | [블로그](https://www.acmicpc.net/problem/21921)         | 투 포인터 | silver3 |
 | BOJ    | 20922     | [겹치는 건 싫어](https://www.acmicpc.net/problem/20922) | 투 포인터 | silver1 |
 | BOJ    | 2470      | [두 용액](https://www.acmicpc.net/problem/2470)         | 투 포인터 | gold5   |
 | BOJ    | 1940      | [주몽](https://www.acmicpc.net/problem/1940)            | 투 포인터 | silver4 |
+| BOJ    | 10025     | [게으른 백곰](https://www.acmicpc.net/problem/10025)    | 투 포인터 | silver3 |
+
+### ⛳️ week5
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                           | 유형       | 난이도  |
+| ------ | --------- | ------------------------------------------------------------------- | ---------- | ------- |
+| BOJ    | 1010      | [다리놓기](https://www.acmicpc.net/problem/1010)                    | 동적계획법 | silver5 |
+| BOJ    | 2839      | [설탕 배달](https://www.acmicpc.net/problem/2839)                   | 동적계획법 | silver4 |
+| BOJ    | 1463      | [1로 만들기](https://www.acmicpc.net/problem/1463)                  | 동적계획법 | silver3 |
+| BOJ    | 11053     | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | 동적계획법 | silver2 |
+| BOJ    | 9465      | [스티커](https://www.acmicpc.net/problem/9465)                      | 동적계획법 | silver1 |

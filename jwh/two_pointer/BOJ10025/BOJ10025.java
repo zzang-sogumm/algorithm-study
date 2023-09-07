@@ -1,24 +1,21 @@
-package jwh.two_pointer.BOJ10025;
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Arrays;
 import java.util.StringTokenizer;
 
-class BOJ10025 {
+class Main {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
-        int n = 0, k = 0, point = 0;
+        int n = 0, k = 0, point = 0, tmp = 0;
         int r = 1, l = 0, result = 0;
         n = Integer.parseInt(st.nextToken());
         k = Integer.parseInt(st.nextToken());
 
-        int[] buc = new int[2000002];
-        Arrays.fill(buc, 0);
+        int[] buc = new int[1000001];
 
         for (int i = 0; i < n; i++) {
             StringTokenizer st1 = new StringTokenizer(br.readLine());
@@ -29,14 +26,19 @@ class BOJ10025 {
             point = Math.max(point, x);
         }
 
-        while (r <= point) {
-            int tmp = 0;
-            for (int i = l; i <= r; i++) {
-                tmp = tmp + buc[i];
-            }
+        r = (k * 2) + 1;
+
+        for (int i = 0; i < r && i < 1000001; i++) {
+            tmp += buc[i];
             result = Math.max(result, tmp);
+        }
+
+        while (r < 1000001) {
+            tmp -= buc[l];
+            tmp += buc[r];
             l += 1;
-            r = l + (k * 2);
+            r += 1;
+            result = Math.max(result, tmp);
         }
 
         System.out.println(result);

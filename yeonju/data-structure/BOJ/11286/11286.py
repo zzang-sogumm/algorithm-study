@@ -1,25 +1,29 @@
 import sys
 import heapq
 
-# initial setting
 input = sys.stdin.readline
-def inputInt():
+
+def read_int():
     return int(input())
 
-# 연산의 개수 입력받기
-n = inputInt()
+def main():
+    # 연산의 개수 입력받기
+    n = read_int()
 
-# 힙 초기화
-heap = []
+    # 힙 초기화
+    heap = []
 
-for i in range(n):
-    x = inputInt()
-    
-    if x != 0:
-        heapq.heappush(heap, (abs(x), x))
-    else:
-        # 절대값의 최솟값 출력
-        if heap:
-            print(heapq.heappop(heap)[1])
+    for i in range(n):
+        x = read_int()
+        
+        if x != 0:
+            heapq.heappush(heap, (abs(x), x))
         else:
-            print(0)
+            # 절대값의 최솟값 출력
+            if heap:
+                print(heapq.heappop(heap)[1])
+            else:
+                print(0)
+
+if __name__ == "__main__":
+    main()

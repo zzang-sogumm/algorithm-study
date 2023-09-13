@@ -176,3 +176,15 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 1463      | [1로 만들기](https://www.acmicpc.net/problem/1463)                  | 동적계획법 | silver3 |
 | BOJ    | 11053     | [가장 긴 증가하는 부분 수열](https://www.acmicpc.net/problem/11053) | 동적계획법 | silver2 |
 | BOJ    | 9465      | [스티커](https://www.acmicpc.net/problem/9465)                      | 동적계획법 | silver1 |
+| BOJ    | 1912      | [연속합](https://www.acmicpc.net/problem/1912)                      | 동적계획법 | silver2 |
+
+### ⛳️ week6
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                       | 유형     | 난이도  |
+| ------ | --------- | --------------------------------------------------------------- | -------- | ------- |
+| BOJ    | 2512      | [예산](https://www.acmicpc.net/problem/2512)                    | 이분탐색 | silver3 |
+| BOJ    | 19637     | [IF문 좀 대신 써줘](https://www.acmicpc.net/problem/19637)      | 이분탐색 | silver3 |
+| BOJ    | 11663     | [선분 위의 점](https://www.acmicpc.net/problem/11663)           | 이분탐색 | silver2 |
+| BOJ    | 1654      | [랜선 자르기](https://www.acmicpc.net/problem/1654)             | 이분탐색 | silver2 |
+| BOJ    | 22871     | [징검다리 건너기(large)](https://www.acmicpc.net/problem/22871) | 이분탐색 | silver1 |
+| BOJ    | 3079      | [입국심사](https://www.acmicpc.net/problem/3079)                | 이분탐색 | gold5   |

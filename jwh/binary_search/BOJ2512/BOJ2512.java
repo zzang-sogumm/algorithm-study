@@ -41,11 +41,10 @@ class BOJ2512 {
                 e = mid - 1; // 중간금액이 작아져야 하니, 최대금액을 줄임
             } else if (sum <= max_give) { // 그게 아니라면, 중간금액이 커져야하니 시작값을 늘림
                 s = mid + 1;
-                max = Math.max(max, mid);// 중간금액을 키우면서 그 중 제일 큰 중간금액이 예산 중 최대값
             }
         }
 
-        System.out.println(max);
+        System.out.println(s);
 
         br.close();
 

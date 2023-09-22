@@ -188,3 +188,13 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 1654      | [랜선 자르기](https://www.acmicpc.net/problem/1654)             | 이분탐색 | silver2 |
 | BOJ    | 22871     | [징검다리 건너기(large)](https://www.acmicpc.net/problem/22871) | 이분탐색 | silver1 |
 | BOJ    | 3079      | [입국심사](https://www.acmicpc.net/problem/3079)                | 이분탐색 | gold5   |
+| BOJ    | 2805      | [나무자르기](https://www.acmicpc.net/problem/2805)              | 이분탐색 | silver2 |
+
+### ⛳️ week7
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                 | 유형        | 난이도  |
+| ------ | --------- | --------------------------------------------------------- | ----------- | ------- |
+| BOJ    | 2606      | [바이러스](https://www.acmicpc.net/problem/2606)          | 그래프 탐색 | silver3 |
+| BOJ    | 11725     | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | 그래프 탐색 | silver2 |
+| BOJ    | 1325      | [효율적인 해킹](https://www.acmicpc.net/problem/1325)     | 그래프 탐색 | silver1 |
+| BOJ    | 2178      | [미로 탐색](https://www.acmicpc.net/problem/2178)         | 그래프 탐색 | silver1 |

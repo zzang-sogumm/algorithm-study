@@ -9,8 +9,6 @@ def read_int_array():
     return list(map(int, input().split()))
 
 def binary_search(arr, max_money, start, end):
-    result = 0
-
     while start <= end:
         mid = (start + end) // 2  # 이분 탐색을 위한 중간값 계산
 
@@ -23,12 +21,11 @@ def binary_search(arr, max_money, start, end):
                 sum_of_arr += mid
 
         if sum_of_arr <= max_money:  # 예산을 초과하지 않는 경우
-            result = mid  # 현재 중간값을 임시 결과로 저장
             start = mid + 1  # 더 큰 값을 찾기 위해 범위를 조정
         else:
             end = mid - 1  # 예산을 초과하는 경우 범위를 왼쪽으로 조정
 
-    return result  # 최적의 예산을 반환
+    return end  # 최적의 예산을 반환
 
 def main():
     n = read_int()

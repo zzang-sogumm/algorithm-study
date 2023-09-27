@@ -19,7 +19,7 @@ class BOJ11725 {
         n = Integer.parseInt(st.nextToken());
 
         for (int i = 1; i <= n; i++) {
-            list[i] = new ArrayList<>(); // 리스트 안에 또 리스트임.
+            list[i] = new ArrayList<Integer>(); // 리스트 안에 또 리스트임.
         }
 
         for (int i = 0; i < n - 1; i++) {

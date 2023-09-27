@@ -27,7 +27,7 @@ class BOJ1325 {
             int u = 0, v = 0;
             u = Integer.parseInt(st.nextToken());
             v = Integer.parseInt(st.nextToken());
-            list[v].add(u);
+            list[u].add(v);
         }
 
         for (int i = 1; i <= n; i++) {

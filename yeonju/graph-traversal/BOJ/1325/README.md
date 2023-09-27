@@ -41,7 +41,9 @@ def main():
             print(i, end=" ")
 ```
 
-## 시도 2: bfs -> 시간 초과 ^^
+## 시도 2: bfs -> 정답
+
+1번과의 차이가 뭘까,,
 
 ```py
 def bfs(graph, n, start):

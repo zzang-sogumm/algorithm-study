@@ -56,7 +56,6 @@
 - <b>실시간 진행 방식</b>
   1.  실전처럼 30분동안 1문제를 풀고 PR을 보냅니다.
   2.  한주동안 문제 풀이를 하면서, 각자 정리한 개념이나 어려웠던 문제들을 공유하고 설명합니다.
-  3.  전주에 올린 PR 리뷰에 대해 공유할만한 내용이 있다면, 이를 공유합니다.
 
 <br />
 
@@ -83,7 +82,6 @@ docs : README.md 등의 문서 작성 및 수정
 
 - PR Template에 맞춰서 작성합니다.
 - 실시간 문제 풀이 후에 PR을 보냅니다.
-- 차주에 코드리뷰를 진행합니다.
 
 ### 📌 Project convention
 
@@ -113,7 +111,7 @@ docs : README.md 등의 문서 작성 및 수정
 
 ### 📌 File convention
 
-- 풀이 상단이나 하단에 문제 풀이 방식을 주석으로 적어둡니다.
+- 주석이나, 마크다운 파일을 이용해 풀이 방법을 적어둡니다.
   - 다른 사람이 풀이를 보더라도 바로 이해할 수 있게 하기 위함입니다.
 
 <br />
@@ -198,3 +196,14 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 11725     | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | 그래프 탐색 | silver2 |
 | BOJ    | 1325      | [효율적인 해킹](https://www.acmicpc.net/problem/1325)     | 그래프 탐색 | silver1 |
 | BOJ    | 2178      | [미로 탐색](https://www.acmicpc.net/problem/2178)         | 그래프 탐색 | silver1 |
+| BOJ    | 2667      | [단지번호붙이기](https://www.acmicpc.net/problem/2667)    | 그래프 탐색 | silver1 |
+
+### ⛳️ week8
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                | 유형     | 난이도  |
+| ------ | --------- | -------------------------------------------------------- | -------- | ------- |
+| BOJ    | 15657     | [N과 M (8)](https://www.acmicpc.net/problem/15657)       | 백트래킹 | silver3 |
+| BOJ    | 1182      | [부분수열의 합](https://www.acmicpc.net/problem/1182)    | 백트래킹 | silver2 |
+| BOJ    | 10971     | [외판원 순회2](https://www.acmicpc.net/problem/10971)    | 백트래킹 | silver2 |
+| BOJ    | 14888     | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | 백트래킹 | silver1 |
+| BOJ    | 9663      | [N-Queen](https://www.acmicpc.net/problem/9663)          | 백트래킹 | gold4   |

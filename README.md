@@ -200,10 +200,20 @@ docs : README.md 등의 문서 작성 및 수정
 
 ### ⛳️ week8
 
-| 플랫폼 | 문제 번호 | 문제 이름                                                | 유형     | 난이도  |
-| ------ | --------- | -------------------------------------------------------- | -------- | ------- |
-| BOJ    | 15657     | [N과 M (8)](https://www.acmicpc.net/problem/15657)       | 백트래킹 | silver3 |
-| BOJ    | 1182      | [부분수열의 합](https://www.acmicpc.net/problem/1182)    | 백트래킹 | silver2 |
-| BOJ    | 10971     | [외판원 순회2](https://www.acmicpc.net/problem/10971)    | 백트래킹 | silver2 |
-| BOJ    | 14888     | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888) | 백트래킹 | silver1 |
-| BOJ    | 9663      | [N-Queen](https://www.acmicpc.net/problem/9663)          | 백트래킹 | gold4   |
+| 플랫폼 | 문제 번호 | 문제 이름                                                  | 유형     | 난이도  |
+| ------ | --------- | ---------------------------------------------------------- | -------- | ------- |
+| BOJ    | 15657     | [N과 M (8)](https://www.acmicpc.net/problem/15657)         | 백트래킹 | silver3 |
+| BOJ    | 1182      | [부분수열의 합](https://www.acmicpc.net/problem/1182)      | 백트래킹 | silver2 |
+| BOJ    | 10971     | [외판원 순회2](https://www.acmicpc.net/problem/10971)      | 백트래킹 | silver2 |
+| BOJ    | 14888     | [연산자 끼워넣기](https://www.acmicpc.net/problem/14888)   | 백트래킹 | silver1 |
+| BOJ    | 9663      | [N-Queen](https://www.acmicpc.net/problem/9663)            | 백트래킹 | gold4   |
+| BOJ    | 16987     | [계란으로 계란치기](https://www.acmicpc.net/problem/16987) | 백트래킹 | gold5   |
+
+### ⛳️ week9
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                      | 유형     | 난이도  |
+| ------ | --------- | -------------------------------------------------------------- | -------- | ------- |
+| BOJ    | 18352     | [특정 거리의 도시 찾기](https://www.acmicpc.net/problem/18352) | 최단거리 | silver2 |
+| BOJ    | 11403     | [경로 찾기](https://www.acmicpc.net/problem/11403)             | 최단거리 | silver1 |
+| BOJ    | 13549     | [숨바꼭질3](https://www.acmicpc.net/problem/13549)             | 최단거리 | gold5   |
+| BOJ    | 11265     | [끝나지 않는 파티](https://www.acmicpc.net/problem/11265)      | 최단거리 | gold5   |

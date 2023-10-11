@@ -217,3 +217,14 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 11403     | [경로 찾기](https://www.acmicpc.net/problem/11403)             | 최단거리 | silver1 |
 | BOJ    | 13549     | [숨바꼭질3](https://www.acmicpc.net/problem/13549)             | 최단거리 | gold5   |
 | BOJ    | 11265     | [끝나지 않는 파티](https://www.acmicpc.net/problem/11265)      | 최단거리 | gold5   |
+
+### ⛳️ week10
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                       | 유형       | 난이도  |
+| ------ | --------- | --------------------------------------------------------------- | ---------- | ------- |
+| BOJ    | 1991      | [트리 순회](https://www.acmicpc.net/problem/1991)               | 트리       | silver1 |
+| BOJ    | 9934      | [완전 이진 트리](https://www.acmicpc.net/problem/9934)          | 트리       | silver1 |
+| BOJ    | 14675     | [단절점과 단절선](https://www.acmicpc.net/problem/14675)        | 트리       | silver1 |
+| BOJ    | 1068      | [트리](https://www.acmicpc.net/problem/1068)                    | 트리       | gold5   |
+| BOJ    | 5639      | [이진 검색 트리](https://www.acmicpc.net/problem/5639)          | 트리       | gold5   |
+| BOJ    | 21610     | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | 시뮬레이션 | gold5   |

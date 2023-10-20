@@ -228,3 +228,12 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 1068      | [트리](https://www.acmicpc.net/problem/1068)                    | 트리       | gold5   |
 | BOJ    | 5639      | [이진 검색 트리](https://www.acmicpc.net/problem/5639)          | 트리       | gold5   |
 | BOJ    | 21610     | [마법사 상어와 비바라기](https://www.acmicpc.net/problem/21610) | 시뮬레이션 | gold5   |
+| BOJ    | 9372      | [상근이의 여행](https://www.acmicpc.net/problem/9372)           | 트리       | gold5   |
+
+### ⛳️ week11
+
+| 플랫폼 | 문제 번호 | 문제 이름                                                   | 유형       | 난이도  |
+| ------ | --------- | ----------------------------------------------------------- | ---------- | ------- |
+| BOJ    | 17144     | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)     | 시뮬레이션 | gold4   |
+| BOJ    | 17140     | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | 시뮬레이션 | gold4   |
+| BOJ    | 1713      | [후보 추천하기](https://www.acmicpc.net/problem/1713)       | 시뮬레이션 | silver1 |

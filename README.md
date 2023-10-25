@@ -237,3 +237,15 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 17144     | [미세먼지 안녕!](https://www.acmicpc.net/problem/17144)     | 시뮬레이션 | gold4   |
 | BOJ    | 17140     | [이차원 배열과 연산](https://www.acmicpc.net/problem/17140) | 시뮬레이션 | gold4   |
 | BOJ    | 1713      | [후보 추천하기](https://www.acmicpc.net/problem/1713)       | 시뮬레이션 | silver1 |
+| BOJ    | 16931     | [겉넓이 구하기](https://www.acmicpc.net/problem/16931)      | 구현       | silver2 |
+
+### ⛳️ week12
+
+| 플랫폼 | 문제 번호 | 문제 이름                                              | 유형      | 난이도  |
+| ------ | --------- | ------------------------------------------------------ | --------- | ------- |
+| BOJ    | 3085      | [사탕 게임](https://www.acmicpc.net/problem/3085)      | 완전 탐색 | silver2 |
+| BOJ    | 14500     | [테트로미노](https://www.acmicpc.net/problem/14500)    | 완전 탐색 | gold4   |
+| BOJ    | 9095      | [1, 2, 3 더하기](https://www.acmicpc.net/problem/9095) | 완전 탐색 | silver3 |
+| BOJ    | 1697      | [숨바꼭질](https://www.acmicpc.net/problem/1697)       | bfs       | silver1 |
+| BOJ    | 13913     | [숨바꼭질4](https://www.acmicpc.net/problem/13913)     | bfs       | gold4   |
+| BOJ    | 1261      | [알고스팟](https://www.acmicpc.net/problem/1261)       | bfs       | gold4   |

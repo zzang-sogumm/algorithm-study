@@ -249,3 +249,13 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 1697      | [숨바꼭질](https://www.acmicpc.net/problem/1697)       | bfs       | silver1 |
 | BOJ    | 13913     | [숨바꼭질4](https://www.acmicpc.net/problem/13913)     | bfs       | gold4   |
 | BOJ    | 1261      | [알고스팟](https://www.acmicpc.net/problem/1261)       | bfs       | gold4   |
+
+### ⛳️ week13
+
+| 플랫폼 | 문제 번호 | 문제 이름                                           | 유형      | 난이도  |
+| ------ | --------- | --------------------------------------------------- | --------- | ------- |
+| BOJ    | 2529      | [부등호](https://www.acmicpc.net/problem/2529)      | 완전 탐색 | silver1 |
+| BOJ    | 1149      | [RGB거리](https://www.acmicpc.net/problem/1149)     | dp        | silver1 |
+| BOJ    | 1309      | [동물원](https://www.acmicpc.net/problem/1309)      | dp        | silver1 |
+| BOJ    | 11057     | [오르막 수](https://www.acmicpc.net/problem/11057)  | dp        | silver1 |
+| BOJ    | 2156      | [포도주 시식](https://www.acmicpc.net/problem/2156) | dp        | silver1 |

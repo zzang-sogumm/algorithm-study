@@ -249,6 +249,7 @@ docs : README.md 등의 문서 작성 및 수정
 | BOJ    | 1697      | [숨바꼭질](https://www.acmicpc.net/problem/1697)       | bfs       | silver1 |
 | BOJ    | 13913     | [숨바꼭질4](https://www.acmicpc.net/problem/13913)     | bfs       | gold4   |
 | BOJ    | 1261      | [알고스팟](https://www.acmicpc.net/problem/1261)       | bfs       | gold4   |
+| BOJ    | 14889     | [스타트와 링크](https://www.acmicpc.net/problem/14889) | 완전 탐색 | silver1 |
 
 ### ⛳️ week13
 
